@@ -1,4 +1,6 @@
 //import {calculateAmortization} from './mortgage'
+
+require('../css/styles.css')
 import Mortgage from './mortgage'
 
 document.getElementById('calcBtn').addEventListener('click', function () {

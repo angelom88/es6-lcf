@@ -13,13 +13,19 @@ var config = {
     rules: [
       {
         test: /\.js$/,
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           query: {
             presets: ['es2015']
           }
         }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       }
+
     ]
   },
   stats: {
