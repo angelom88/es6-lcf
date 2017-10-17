@@ -1,2 +1,2 @@
 # es6-lcf
-crunching es6
+getting started with es6
